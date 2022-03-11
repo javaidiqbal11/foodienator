@@ -1,4 +1,4 @@
-# Get and Pick Deliver System
+# Get and Pick Delivery System
 This repo is for the delivery items using MVC PHP Codeigniter Framework. 
 
 ## Instructions to Run the Project?
