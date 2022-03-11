@@ -1,44 +1,41 @@
-### Instructions: How to Run?
+# Get and Pick Deliver System
+This repo is for the delivery items using MVC PHP Codeigniter Framework. 
 
-1- unzip the project file and head over to your XAMPP directory.
+## Instructions to Run the Project?
 
-2- There you’ll find a folder naming “htdocs”.
+1. Unzip the project file and head over to your XAMPP directory.
 
-3- Inside the “htdocs” folder, paste the project folder (not the .zip one, but the extracted one).
+2. There you’ll find a folder naming “htdocs”.
 
-4- Open your favorite browser; we recommend using Google Chrome or Mozilla Firefox.
+3. Inside the “htdocs” folder, paste the project folder (not the .zip one, but the extracted one).
 
-5- Then, go to URL “http://localhost/phpmyadmin“.
+4. Open your favorite browser; we recommend using Google Chrome or Mozilla Firefox.
 
-6- Create a Database with a name that is provided inside the “ReadMe”. such that "foodorderigniter"
+5. Then, go to URL [PhpMyAdmin](http://localhost/phpmyadmin).
 
-7- Click on the “Import” tab and choose the database file (.sql) which is provided under the folder naming “foodorderigniter”.
+6. Create a Database with a name that is provided inside the “ReadMe”. such that "foodorderigniter"
 
-8- After setting up all these, go to URL “http://localhost/foodienator/“
+7. Click on the “Import” tab and choose the database file (.sql) which is provided under the folder naming “foodorderigniter”.
 
-Database Name: foodorderigniter
-
-
-
-Recommended PHP Version 7.4.12
+8. After setting up all these, go to URL [Web Home Page](http://localhost/foodienator/)
 
 
-Remember: Do not change the project's folder name without updating $config['base_url']
+**Recommended PHP Version 7.4.12**
 
 
-Extract this folder
-Paste into the htdocs folder
-Go to link link:
-http://localhost/foodienator/
+***Remember: Do not change the project's folder name without updating $config['base_url']***
+
+
+Go to link: [Web Home Page](http://localhost/foodienator/)
 
 Admin Login Details
-open the URL and paste the link for admin login: "http://localhost/foodienator/admin/home"
+open the URL and paste the link for admin login:[Admin Dashboard](http://localhost/foodienator/admin/home)
 
 Username: admin
 Password: admin
 
 Customer Login Details
-Open the URL and paste the link for user login: "http://localhost/foodienator/home/index"
+Open the URL and paste the link for user login: [Customer Login](http://localhost/foodienator/home/index)
 
 Username: users
 Password: users123
