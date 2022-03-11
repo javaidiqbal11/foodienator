@@ -52,7 +52,7 @@
                     <?php } ?>
                     <?php } else {?>
                     <tr>
-                        <td colspan="8">Records not found</td>
+                        <td colspan="8">Records not found!!!</td>
                     </tr>
                     <?php }?>
                 </tbody>

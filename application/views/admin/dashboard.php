@@ -136,7 +136,7 @@
                             <?php } ?>
                             <?php } else {?>
                             <tr>
-                                <td colspan="4">Records not found</td>
+                                <td colspan="4">Records not found!</td>
                             </tr>
                             <?php }?>
                         </tbody>
@@ -173,7 +173,7 @@
                             <?php } ?>
                             <?php } else {?>
                             <tr>
-                                <td colspan="4">Records not found</td>
+                                <td colspan="4">Records not found!</td>
                             </tr>
                             <?php }?>
                         </tbody>

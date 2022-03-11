@@ -2,7 +2,7 @@
 
     <form action="<?php echo base_url().'admin/user/edit/'.$user['u_id']; ?>" method="POST"
         class="form-container mx-auto shadow-container" id="myForm" style="width:80%">
-        <h3 class="mb-3 p-2 text-center">Edit User "<?php echo $user['username']; ?>"</h3>
+        <h3 class="mb-3 p-2 text-center">Edit User"<?php echo $user['username']; ?>"</h3>
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
