@@ -1,4 +1,4 @@
-Instructions: How to Run?
+### Instructions: How to Run?
 
 1- unzip the project file and head over to your XAMPP directory.
 
