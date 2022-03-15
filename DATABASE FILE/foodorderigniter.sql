@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2022 at 06:17 PM
+-- Generation Time: Mar 15, 2022 at 07:06 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -140,13 +140,13 @@ CREATE TABLE `restaurants` (
 --
 
 INSERT INTO `restaurants` (`r_id`, `c_id`, `name`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `img`) VALUES
-(1, 2, 'Giulia Store', 'gr69stro@gmail.com', '1-555-555-5555', 'giuliarestroo.com', '8am', '7pm', 'mon-sat', '1259  Wood Street', 'home-slide1.jpg'),
-(2, 6, 'Vernick Restro', 'vernic@gmail.com', '1-567-567-8888', 'foodvernick.com', '10am', '7pm', '24hr-x7', '1812  Fleming Street', 'vrfnb.jpg'),
-(3, 6, 'Townsend', 'townsend@gmail.com', '1-333-222-7474', 'townsend.com', '8am', '8pm', 'mon-sat', '528  Veltri Drive', 'TOWNSEND.jpg'),
-(4, 6, 'Artisan Bar & Grill', 'grilltisan@gmail.com', '1-222-333-7878', 'artisanbargr.com', '11am', '8pm', '24hr-x7', '1659  Ritter Avenue', 'artisan-cafe-berea-ky.jpg'),
-(5, 6, 'Highland Restaurant', 'contact@hlrt.com', '11555578522', 'highlandrestro.com', '9am', '8pm', '24hr-x7', '1547  Birch  Street', 'hlmg.jpg'),
+(1, 2, 'Giulia Store', 'gr69stro@gmail.com', '1-555-555-5555', 'giuliarestroo.com', '9am', '7pm', 'mon-fri', '1259  Wood Street t', 'hlmg.jpg'),
+(2, 6, 'Vernice Store', 'vernic@gmail.com', '1-567-567-8888', 'foodvernick.com', '10am', '7pm', '24hr-x7', '1812  Fleming Street', 'pic7.jpg'),
+(3, 6, 'Townsend Store', 'townsend@gmail.com', '1-333-222-7474', 'townsend.com', '8am', '8pm', 'mon-sat', '528  Veltri Drive', 'pic8.jpg'),
+(4, 6, 'Artisan Store', 'grilltisan@gmail.com', '1-222-333-7878', 'artisanbargr.com', '11am', '8pm', '24hr-x7', '1659  Ritter Avenue', 'pic9.jpg'),
+(5, 6, 'Highland Store', 'contact@hlrt.com', '11555578522', 'highlandrestro.com', '9am', '8pm', '24hr-x7', '1547  Birch  Street', 'home-slide.jpg'),
 (6, 5, 'Alchemist', 'alchems@gmail.com', '12454850000', 'alchemist.food', '10am', '8pm', 'mon-sat', '60  Trehafod Road', 'home-slide.jpg'),
-(7, 4, 'Treehouse Restro', 'treehsr@gmail.com', '12457854101', 'treehouserestr.com', '8am', '6pm', 'mon-sat', '2902 Benson Park Drive', 'treehouserestr.jpg');
+(7, 4, 'Treehouse Store', 'treehsr@gmail.com', '12457854101', 'treehouserestr.com', '8am', '6pm', 'mon-sat', '2902 Benson Park Drive', 'home1.jpg');
 
 -- --------------------------------------------------------
 
@@ -167,9 +167,9 @@ INSERT INTO `res_category` (`c_id`, `c_name`) VALUES
 (2, 'First Order'),
 (3, 'Fast Delivery'),
 (4, 'Urgent'),
-(5, 'Availability'),
+(5, 'Remotely'),
 (6, 'Slowly'),
-(7, 'As Soon');
+(7, 'Surprisingly');
 
 -- --------------------------------------------------------
 
