@@ -31,11 +31,11 @@ Go to link: [Web Home Page](http://localhost/foodienator/)
 Admin Login Details
 open the URL and paste the link for admin login:[Admin Dashboard](http://localhost/foodienator/admin/home)
 
-Username: admin
+Username: admin  <br>
 Password: admin
 
 Customer Login Details
 Open the URL and paste the link for user login: [Customer Login](http://localhost/foodienator/home/index)
 
-Username: users
+Username: users      <br>
 Password: users123
