@@ -11,7 +11,7 @@
     <?php endif ?>
     <div class="row">
         <div class="col-md-6">
-            <h4>Available Franchise/s</h4>
+            <h4>Available Store/s</h4>
         </div>
         <div class="col-md-6 text-right">
             <input class="form-control mb-3" id="myInput" type="text" placeholder="Search .." style="width:50%;">

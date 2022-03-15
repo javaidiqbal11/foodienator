@@ -6,7 +6,7 @@
     </ul>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo base_url().'public/front/img/bfbrg.jpg';?>" alt="FriesBrgrImg">
+            <img src="<?php echo base_url().'public\front\img\s1.jpg';?>" alt="Slider1">
             <div class="carousel-caption text-left">
                 <h1 class="display-2">Delivery?!</h1>
                 <h3>Good, we are here to serve you</h3>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="<?php echo base_url().'public/front/img/spaghetti-bg.jpg';?>" alt="Spaghetti">
+            <img src="<?php echo base_url().'public/front/img/swgb.jpg';?>" alt="Slider2">
             <div class="carousel-caption text-right">
                 <h1 class="display-2">Delivery?!</h1>
                 <h3>Good, we are here to serve you</h3>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="<?php echo base_url().'public/front/img/snwbg.jpg';?>" alt="corn">
+            <img src="<?php echo base_url().'public/front/img/s2.jpg';?>" alt="Slider3">
             <div class="carousel-caption text-right">
                 <h1 class="display-2">Delivery?!</h1>
                 <h3>Good, we are here to serve you</h3>
@@ -89,8 +89,7 @@
                     </div>
                     <p class="card-text"><?php echo $dish['about']; ?></p>
                     <a href="<?php echo base_url().'Dish/addToCart/'.$dish['d_id']; ?>" class="btn btn-primary"><i
-                            class="fas fa-cart-plus"></i> Add to
-                        Cart</a>
+                            class="fas fa-cart-plus"></i> Add to Cart</a>
                 </div>
             </div>
         </div>

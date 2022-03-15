@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pick and Get System</title>
+    <title>Pick and Get</title>
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap.min.css';?>">
     <script src="<?php echo base_url().'assets/js/jquery-3.6.0.min.js';?>"></script>
     <script src="<?php echo base_url().'assets/js/bootstrap.min.js';?>"></script>
@@ -20,7 +20,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="<?php echo base_url().'home/index';?>"><i class=""></i> Pick and Get System</a>
+            <a class="navbar-brand" href="<?php echo base_url().'home/index';?>"><i class=""></i> <img src="<?php echo base_url().'public\assets\logo.jpg';?>" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRes">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,10 @@
                         <a class="nav-link" href="<?php echo base_url().'home/index';?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo base_url().'restaurant/index';?>">Franchises</a>
+                        <a class="nav-link active" href="<?php echo base_url().'restaurant/index';?>">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="<?php echo base_url().'restaurant/index';?>">Categories</a>
                     </li>
                     <?php $user = $this->session->userdata('user'); 
                     if(empty($user)) {

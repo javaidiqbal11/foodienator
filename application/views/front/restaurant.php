@@ -1,7 +1,7 @@
 <div class="container-fluid padding">
     <div class="row welcome text-center welcome">
         <div class="col-12">
-            <h1 class="display-4">Franchises</h1>
+            <h1 class="display-4">Stores</h1>
         </div>
         <hr>
     </div>
