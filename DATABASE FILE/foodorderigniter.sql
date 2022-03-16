@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2022 at 07:06 PM
+-- Generation Time: Mar 16, 2022 at 06:09 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -63,27 +63,18 @@ CREATE TABLE `dishesh` (
 --
 
 INSERT INTO `dishesh` (`d_id`, `r_id`, `name`, `about`, `price`, `img`) VALUES
-(1, 1, 'Grilled Cheese Sandwich', 'Grilled cheese sandwich or grilled cheese is a hot sandwich made with more varieties of cheese cooked on the grill long enough for the cheese to melt a little and the bread to get brown and a little crispy. Grill until lightly browned and flip over; conti', 6, 'igcsan.jpg'),
-(2, 1, 'Turkey Fajitas', 'Enjoy delicious Mexican food with this smoky BBQ turkey fajitas recipe from Giulia Restro to finish up turkey leftovers or just to make a tasty dinner! just give it a kick with picante sauce, peppers and onions, all wrapped up in a flour tortilla.', 9, 'turkey-fajitas.jpg'),
-(3, 3, 'Hot Dog', 'Whole cured, cooked sausage that is skinless or stuffed in a casing, that may be known as a frankfurter, frank, furter, wiener, red hot, vienna, bologna, garlic bologna, or knockwurst, and that may be served in a bun or roll', 4, 'hdoggg.jpg'),
-(4, 2, 'Ham Burger', 'Sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled. The Epic Ham and Cheese Stuffed Bacon Burger is hands down the best', 4, 'hmbrger.jpg'),
-(5, 3, 'Detroit-Style Pizza', 'A thick, square-cut pizza with a crunchy, fried bottom layer of crust overflowing with delicious melted cheese. The result of this unique pizza style is a gooey, doughy center with a crunchy outer crust and caramelized cheese hugging its edges.', 10, 'detroitpzz.jpg'),
-(6, 1, 'Pasta allArrabbiata', 'Pasta Arrabiata literally means \"angry pasta\" in Italian. Arrabiata sauce (sugo all\'arrabbiata) is a spicy (angry) tomato sauce that\'s made with plenty of olive oil, garlic, chopped tomatoes, and red pepper flakes to provide the heat.', 9, 'Pappardelle.jpg'),
-(7, 1, 'Spaghetti Carbonara', 'Just spaghetti and the carbonara is made with pancetta or bacon, eggs, Parmesan, a little olive oil, salt and pepper. The silky carbonara sauce is created when the beaten eggs are tossed with the hot pasta and a little fat from the pancetta or bacon.', 9, 'spCarbonara.jpg'),
-(8, 2, 'Toasted Ravioli', 'The crunchy pasta, dusted with grated Parmesan cheese and dunked in a marinara-style sauce, makes a delicious hot appetizer. the ravioli is deep-fried, not toasted, and like many culinary discoveries, the first batch was the result of an accident.', 11, 'fried-ravioli-bread-crumbs.jpg'),
-(9, 3, 'Maltesers Tiramisu', 'As the name implies, this is an iconic Italian dessert that is served at the end of the meal that hopefully “cheers you up”. For a decadent, crowd-pleasing dessert this Christmas you can\'t go past a no-bake Malteser tiramisu.', 4, 'mldessert.jpeg'),
-(10, 6, 'Arancini', 'Arancini are Italian rice balls that are stuffed, coated with bread crumbs and deep fried, and are a staple of Sicilian cuisine. They have a meat sauce and mozzarella cheese filling and crunchy breadcrumb coating. Similar Italian rice balls are called sup', 12, 'aw-arancini-articleLarge.jpg'),
-(11, 6, 'Currywurst', 'Currywurst is a fast food dish of German origin consisting of steamed, and fried pork sausage typically cut into bite-sized chunks and seasoned with curry ketchup, a sauce based on spiced ketchup or tomato paste topped with curry powder, or a ready-made k', 7, 'curywurst.jpg'),
-(12, 6, 'Steak au poivre', 'Steak au poivre or pepper steak is a French dish that consists of a steak, traditionally a filet mignon, coated with coarsely cracked peppercorns and then cooked. a steak that has had coarsely ground black pepper pressed into it before cooking, is served ', 10, 'stkkk.jpg'),
-(13, 5, 'French Fries', 'French fries, or simply fries, chips, finger chips, or French-fried potatoes, are batonnet or allumette-cut deep-fried potatoes. French fries have numerous variants, from thick-cut to shoestring, crinkle, curly and many other names.', 2, 'ffries.jpg'),
-(14, 5, 'Roast Beef Sandwich', 'Roast Beef Sandwich Recipe with Horseradish Cream is absolutely loaded up with flavor, from the thinly sliced roast beef to the roasted potatoes, to the horseradish cream, if you want delicious, then this is the sandwich for you.', 5, 'roast-beef-sandwich.jpg'),
-(15, 4, 'Philly Cheesesteak', 'A cheesesteak is a sandwich made from thinly sliced pieces of beefsteak and melted cheese in a long hoagie roll. A popular regional fast food, it has its roots in the U.S. city of Philadelphia, Pennsylvania. Cheesesteaks have become popular at restaurants', 5, 'philly-cheesesteak-3c4be15.jpg'),
-(16, 4, 'Sesame Chicken', 'Sesame chicken is an American-Chinese dish made by deep-frying deboned and battered chicken pieces which are then dressed with a thick, translucent, sweet sauce consisting of chicken broth, sugar, corn starch, and vinegar or sake. additionally topped with', 11, 'sschicken.jpg'),
-(17, 4, 'Mozzarella Sticks', 'One of America\'s favorite cheesy snacks consisting of battered, breaded, and deep-fried pieces of mozzarella cheese. Served as an appetizer with marinara sauce, these cheesy sticks can also be paired with plum sauce, honey mustard sauce, raspberry sauce, ', 9, 'mozzsticks.jpg'),
-(18, 2, 'Chimichanga', 'Chimichanga is a wrapped, deep-fried flour tortilla filled with a variety of ingredients such as shredded chicken, beef, rice, beans, onions, and cheese. Served topped with sour cream, guacamole and salsa, this Mexican inspired recipe is delicious!', 9, 'chimichangs.jpg'),
-(20, 2, 'Chop Suey', 'Chop suey is a dish in American Chinese cuisine and other forms of overseas Chinese cuisine, consisting of meat and eggs, cooked quickly with vegetables such as bean sprouts, cabbage, and celery and bound in a starch-thickened sauce.', 8, 'choppsuey.jpg'),
-(21, 5, 'PoBoy', 'A po\' boy is a traditional sandwich from Louisiana. It almost always consists of meat, which is usually roast beef or fried seafood, often shrimp, crawfish, fish, oysters or crab. The meat is served on New Orleans French bread, known for its crisp crust a', 5, 'poboy.jpg'),
-(22, 7, 'Reuben Sandwich', 'Reuben Sandwich is composed of corned beef, swiss chees, sauerkraut and russian dressing, grilled between slices of rye bread. It is associated with kosher-style delicatessens as it combines meat and cheese.', 8, 'reubensandw.jpg');
+(1, 0, 'Best Services worldwide', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 6, 'pic1.jpg'),
+(2, 1, 'Flowers Parcel', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 9, 'pic2.jpg'),
+(3, 3, 'Garments Parcels', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 4, 'pic3.jpg'),
+(4, 2, 'Furniture Parcels', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 4, 'pic4.jpg'),
+(5, 3, 'Electronics', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 10, 'pic5.jpg'),
+(6, 1, 'Home Appliances', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 9, 'pic6.jpg'),
+(7, 1, 'Home Decore', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 9, 'pic7.jpg'),
+(8, 2, 'Office Products', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 11, 'pic8.jpg'),
+(9, 3, 'Cleanliness Parcels', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 4, 'pic9.jpeg'),
+(10, 6, 'Gifts', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 12, 'pic10.jpg'),
+(11, 6, 'Fruits', 'This is the best service which is facilitating peoples to deliver their parcels all over the globe instantly. Get the chance for winning prize bonds as well here.', 7, 'curywurst.jpg'),
+(12, 6, 'Steak au poivre', 'Steak au poivre or pepper steak is a French dish that consists of a steak, traditionally a filet mignon, coated with coarsely cracked peppercorns and then cooked. a steak that has had coarsely ground black pepper pressed into it before cooking, is served ', 10, 'stkkk.jpg');
 
 -- --------------------------------------------------------
 
@@ -140,13 +131,13 @@ CREATE TABLE `restaurants` (
 --
 
 INSERT INTO `restaurants` (`r_id`, `c_id`, `name`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `img`) VALUES
-(1, 2, 'Giulia Store', 'gr69stro@gmail.com', '1-555-555-5555', 'giuliarestroo.com', '9am', '7pm', 'mon-fri', '1259  Wood Street t', 'hlmg.jpg'),
-(2, 6, 'Vernice Store', 'vernic@gmail.com', '1-567-567-8888', 'foodvernick.com', '10am', '7pm', '24hr-x7', '1812  Fleming Street', 'pic7.jpg'),
-(3, 6, 'Townsend Store', 'townsend@gmail.com', '1-333-222-7474', 'townsend.com', '8am', '8pm', 'mon-sat', '528  Veltri Drive', 'pic8.jpg'),
-(4, 6, 'Artisan Store', 'grilltisan@gmail.com', '1-222-333-7878', 'artisanbargr.com', '11am', '8pm', '24hr-x7', '1659  Ritter Avenue', 'pic9.jpg'),
+(1, 5, 'Giulia Store', 'gr69stro@gmail.com', '1-555-555-5555', 'giuliarestroo.com', '9am', '7pm', 'mon-fri selected', '1259  Wood Street t', 'hlmg.jpg'),
+(2, 3, 'Vernice Store', 'vernic@gmail.com', '1-567-567-8888', 'foodvernick.com', '10am', '7pm', 'mon-sat', '1812  Fleming Street', 'TOWNSEND.jpg'),
+(3, 4, 'Townsend Store', 'townsend@gmail.com', '1-333-222-7474', 'townsend.com', '8am', '8pm', 'mon-sat', '528  Veltri Drive', 'vrfnb.jpg'),
+(4, 5, 'Artisan Store', 'grilltisan@gmail.com', '1-222-333-7878', 'artisanbargr.com', '11am', '8pm', 'mon-fri', '1659  Ritter Avenue', 'treehouserestr.jpg'),
 (5, 6, 'Highland Store', 'contact@hlrt.com', '11555578522', 'highlandrestro.com', '9am', '8pm', '24hr-x7', '1547  Birch  Street', 'home-slide.jpg'),
-(6, 5, 'Alchemist', 'alchems@gmail.com', '12454850000', 'alchemist.food', '10am', '8pm', 'mon-sat', '60  Trehafod Road', 'home-slide.jpg'),
-(7, 4, 'Treehouse Store', 'treehsr@gmail.com', '12457854101', 'treehouserestr.com', '8am', '6pm', 'mon-sat', '2902 Benson Park Drive', 'home1.jpg');
+(6, 6, 'Alchemist', 'alchems@gmail.com', '12454850000', 'alchemist.food', '10am', '8pm', 'mon-sat', '60  Trehafod Road', 'vrfnb.jpg'),
+(7, 7, 'Treehouse Store', 'treehsr@gmail.com', '12457854101', 'treehouserestr.com', '8am', '7pm', 'mon-sat', '2902 Benson Park Drive', 'TOWNSEND.jpg');
 
 -- --------------------------------------------------------
 

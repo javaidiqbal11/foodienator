@@ -16,7 +16,7 @@
                 <img class="card-img-top" src="<?php echo base_url().'public/uploads/restaurant/thumb/'.$image; ?>">
                 <div class="card-body">
                     <h4 class="card-title"><?php echo $store['name']; ?></h4>
-                    <p class="card-text mb-0"><?php echo $store['c_name']." Restaurant"; ?></p>
+                    <p class="card-text mb-0"><?php echo $store['c_name']." Store"; ?></p>
                     <p class="card-text mb-0"><?php echo $store['address']; ?></p>
                     <hr>
                     <p class="card-text mb-0"></p>
@@ -25,7 +25,7 @@
                     <p class="card-text"><?php echo $store['o_hr']; ?> - <?php echo $store['c_hr']; ?></p>
                     <hr>
                     <a href="<?php echo base_url().'dish/list/'.$store['r_id']; ?>" class="btn btn-primary">View
-                        Menu</a>
+                        Parcels</a>
                 </div>
             </div>
         </div>
